@@ -1,15 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
 
 import numpy as np
 import pickle
 
 # loading the saved model
-loaded_model = pickle.load(open('D:/Work\Machine Learning/Deploying Machine Learning model/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('C:/Users/Rasheeda_Banu/Downloads/trained_model.sav', 'rb'))
 
 
 input_data = (5,166,72,19,175,25.8,0.587,51)
